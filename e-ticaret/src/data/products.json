@@ -1,0 +1,123 @@
+{
+    "products": [
+        {
+            "productId": 1,
+            "name": "Kaşe Kaban",
+            "price": 950,
+            "image": "https://cdn.dsmcdn.com/ty447/product/media/images/20220606/11/121853527/76796708/2/2_org_zoom.jpg",
+            "description": "Antrasit oversize kaşe kaban",
+            "size": "34-36-38-40-42-44",
+            "tags": ["kadın", "kaban", "kaşe"],
+            "favorites": 10
+          },
+        {
+        "productId": 2,
+        "name": "Kareli Ceket",
+        "price": 650,
+        "image": "https://cdn.dsmcdn.com/ty194/product/media/images/20211011/17/145223646/251301387/1/1_org_zoom.jpg",
+        "description": "Kahverengi kareli kemer detaylı ceket",
+        "size": "34-36-38-40-42-44",
+        "tags": ["kadın", "ceket", "kahverengi"],
+        "favorites": 10
+      },
+      {
+        "productId": 3,
+        "name": "Antrasit Ceket",
+        "price": 639,
+        "image": "https://cdn.dsmcdn.com/ty1006/product/media/images/prod/PIM/20230927/11/2fe2a04e-109c-452b-82dc-254be721198b/1_org_zoom.jpg",
+        "description": "Antrasit oversize ceket",
+        "size": "34-36-38-40-42-44",
+        "tags": ["kadın", "ceket", "antrasit"],
+        "favorites": 10
+      },
+      {
+        "productId": 4,
+        "name": "Yün Dokuma Atkı",
+        "price": 100,
+        "image": "https://cdn.dsmcdn.com/ty259/product/media/images/20211201/0/2296413/285805618/2/2_org_zoom.jpg",
+        "description": "Çift taraflı yün dokuma atkı.",
+        "size": "STD",
+        "tags": ["etiket1", "etiket2", "etiket3"],
+        "favorites": 10
+      },
+      {
+        "productId": 5,
+        "name": "Bej Rengi Pantolon",
+        "price": 670,
+        "image": "https://cdn.dsmcdn.com/ty493/product/media/images/20220728/18/151515086/79199536/2/2_org_zoom.jpg ",
+        "description": "Yüksek bel bej rengi, bilek bboy pantolon.",
+        "size": "34-36-38-40-42-44",
+        "tags": ["etiket1", "etiket2", "etiket3"],
+        "favorites": 10
+      },
+      {
+        "productId": 6,
+        "name": "Oversize Gömlek",
+        "price": 480,
+        "image": "https://cdn.dsmcdn.com/ty988/product/media/images/jpim-outputs/assets/product/media/images/20230821/10/405604992/928361167/2/2_org_zoom.jpg",
+        "description": "Açık yeşil çift taraflı oversize gömlek.",
+        "size": "34-36-38-40-42-44",
+        "tags": ["etiket4", "etiket5", "etiket6"],
+        "favorites": 5
+      }
+    ],
+    "users": [
+      {
+        "userId": 1,
+        "firstName": "Ceren",
+        "lastName": "Kurnaz",
+        "email": "crnkurnaz@gmail.com",
+        "password": "123"
+      },
+      {
+        "userId": 2,
+        "firstName": "Selahattin",
+        "lastName": "Çiftçi",
+        "email": "selahattinciftci@gmail.com",
+        "password": "123"
+      },
+      {
+        "userId": 3,
+        "firstName": "Betül",
+        "lastName": "Daşci",
+        "email": "betüldasci@gmail.com",
+        "password": "123"
+      }
+    ],
+    "orders": [
+      {
+        "id": 2,
+        "userId": 1,
+        "products": [
+          {
+            "productId": 1,
+            "quantity": 2 
+          },
+          {
+            "productId": 3,
+            "quantity": 1
+          }
+        ],
+        "totalPrice": 2539, 
+        "orderDate": "2023-01-01" 
+      },
+      {
+        "id": 1,
+        "userId": 1,
+        "products": [
+          {
+            "productId": 1,
+            "quantity": 2 
+          },
+          {
+            "productId": 3,
+            "quantity": 1
+          }
+        ],
+        "totalPrice": 2539, 
+        "orderDate": "2023-01-01" 
+      }
+    ]
+   
+  }
+  
